@@ -28,9 +28,6 @@
 // -109 <= target <= 109
 // Only one valid answer exists.
 
-// We could use two for loops to find the sum of the two arrays, but that would put our notation at O(n^2), which isn't that great
-// Ideally, we would use a hash table to improve our optimization
-
 var twoSum = function(nums, target) {
     const result = [];
     const hash = {};
